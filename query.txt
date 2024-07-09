@@ -52,6 +52,9 @@ VALUES ('5001','12','Ale','Sarra','1990-12-16','SRRLSN90T16H5010','2024-07-09','
 
 10. Cambiare il numero dell'ufficio del Prof Pietro Rizzo in 126
 
+UPDATE `teachers` 
+SET `office_number`='126' 
+WHERE `name` = 'Pietro' AND `surname` = 'Rizzo'; 
 
 11. Eliminare dalla tabella studenti il record creato precendetemente al punto 9
 
